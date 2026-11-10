@@ -93,13 +93,13 @@ export default function WeddingInfo() {
 
           {/* Couple Names & Details */}
           <div className="w-full flex flex-col items-center py-2">
-            {/* Bride */}
+          {/* Groom */}
             <div className="flex flex-col items-center">
               <h2 className="font-script text-4xl sm:text-5xl text-[#a34f65] gold-shimmer tracking-normal leading-tight py-0.5">
-                Vanshika
+                Gourav
               </h2>
               <p className="font-serif-body text-[11px] sm:text-xs text-[#82776b] tracking-wide mt-0.5">
-                D/o Smt. Sapna Yadav &amp; Sh. Devinder Yadav
+                S/o Smt. Mamta &amp; Sh. Ashok Chawla
               </p>
             </div>
 
@@ -109,16 +109,16 @@ export default function WeddingInfo() {
                 weds
               </span>
             </div>
-
-            {/* Groom */}
+  {/* Bride */}
             <div className="flex flex-col items-center">
               <h2 className="font-script text-4xl sm:text-5xl text-[#a34f65] gold-shimmer tracking-normal leading-tight py-0.5">
-                Gourav
+                Vanshika
               </h2>
               <p className="font-serif-body text-[11px] sm:text-xs text-[#82776b] tracking-wide mt-0.5">
-                S/o Smt. Mamta &amp; Sh. Ashok Chawla
+                D/o Smt. Sapna Yadav &amp; Sh. Devinder Yadav
               </p>
             </div>
+            
 
             {/* Ornamental Divider */}
             <div className="flex items-center justify-center gap-3 w-36 sm:w-44 my-4 opacity-80">

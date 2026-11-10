@@ -13,8 +13,8 @@ interface HeroSectionProps {
 export default function HeroSection({
   shloka = "॥ श्री गणेशाय नमः ॥",
   tagline = "WE INVITE YOU TO CELEBRATE THE WEDDING OF",
-  groomName = "Gourav",
   brideName = "Vanshika",
+  groomName = "Gourav",
   familyLine = "Together with their families",
   scrollPrompt = "SCROLL TO CELEBRATE",
 }: HeroSectionProps) {
