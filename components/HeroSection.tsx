@@ -1,3 +1,4 @@
+
 import React from "react";
 import BGImage from "@/assets/herobg2.png";
 
@@ -26,7 +27,7 @@ export default function HeroSection({
       }}
     >
       {/* Subtle Ambient Vignette / Soft Warm Glow in Center */}
-      <div className="absolute inset-0  pointer-events-none" />
+      <div className="absolute inset-0 pointer-events-none" />
 
       {/* Floating Rose Petals Animation for Royal Wedding Feel */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
@@ -55,21 +56,21 @@ export default function HeroSection({
           {tagline}
         </p>
 
-        {/* Groom Name */}
+        {/* Groom Name - FIRST */}
         <h1 className="font-script text-6xl sm:text-6xl gold-gradient-text gold-shimmer tracking-normal leading-[1.1] py-1">
-          {brideName}
+          {groomName}
         </h1>
 
-        {/* Ampersand & */}
+        {/* Weds */}
         <div className="my-0.5 flex items-center justify-center">
           <span className="font-serif-body italic text-2xl sm:text-3xl text-[#996e2a] font-normal opacity-90">
             weds
           </span>
         </div>
 
-        {/* Bride Name */}
+        {/* Bride Name - SECOND */}
         <h2 className="font-script text-6xl sm:text-6xl gold-gradient-text gold-shimmer tracking-normal leading-[1.1] py-1">
-          {groomName}
+          {brideName}
         </h2>
 
         {/* Decorative Divider */}
@@ -90,6 +91,7 @@ export default function HeroSection({
         <p className="font-royal text-[9px] sm:text-[10px] tracking-[0.28em] text-[#6b4c37] font-semibold uppercase mb-1">
           {scrollPrompt}
         </p>
+
         <div className="animate-gentle-bounce flex items-center justify-center">
           <svg
             className="w-4 h-4 text-[#8a6345]"
